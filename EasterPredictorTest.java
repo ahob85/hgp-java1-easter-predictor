@@ -10,17 +10,17 @@ import org.junit.jupiter.params.provider.CsvSource;
 import java.io.*;
 
 /**
- * The test class TestEasterPredictor.
+ * The test class EasterPredictorTest.
  *
  * @author  (your name)
  * @version (a version number or a date)
  */
-public class TestEasterPredictor
+public class EasterPredictorTest
 {
     /**
-     * Default constructor for test class TestEasterPredictor
+     * Default constructor for test class EasterPredictorTest
      */
-    public TestEasterPredictor()
+    public EasterPredictorTest()
     {
     }
 
@@ -45,7 +45,7 @@ public class TestEasterPredictor
     }
     
     @Test
-    public void testEasterPredictor() 
+    public void easterPredictorTest() 
     {
         PrintStream originalOut = System.out;
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
